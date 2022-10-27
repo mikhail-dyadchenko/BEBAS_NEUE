@@ -1,0 +1,639 @@
+body {
+  width: 1440px;
+  background: white;
+  display: block;
+  height: 10256px;
+  margin: 0 auto;
+  position: relative;
+}
+nav {
+  display: flex;
+  position: absolute;
+  margin-left: 104px;
+  margin-top: 68px;
+}
+nav a {
+  margin-left: 76px;
+  text-decoration: none;
+  font-family: 'BebasNeueBold';
+  font-size: 48px;
+  letter-spacing: 1.5px;
+  color: #000000;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ffffff;
+}
+h1, h2, h3, h4 {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+}
+h1 {
+  font-size: 210px;
+  margin-left: 499px;
+  margin-top: 152px;
+  color: #ffffff;
+}
+h2 {
+  font-size: 128px;
+  margin-left: 730px;
+  margin-top: -460px;
+  color: #6F2DA8;
+}
+h3 {
+  font-size: 96px;
+}
+h4 {
+  font-size: 48px;
+  letter-spacing: 1.5px;
+  margin-left: 730px;
+  margin-top: -90px;
+  color: #000000;
+}
+.block1 {
+  position: relative;
+  height: 1024px;
+  width: 1440px;
+  background-color: #6F2DA8;
+}
+.projector {
+  position: absolute;
+  height: 710px;
+  margin-left: 160px;
+  margin-top: 167px;
+}
+.chair {
+  position: absolute;
+  height: 600px;
+  margin-left: 220px;
+  margin-top: 350px;
+}
+.CB {
+  position: absolute;
+  height: 440px;
+  margin-left: 884px;
+  margin-top: 430px;
+}
+.type1 {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  font-size: 24px;
+  letter-spacing: 1.3px;
+  margin-left: 948px;
+  margin-top: 702px;
+}
+.type2, .type3, .type4, .type5 {
+  position: absolute;
+  font-family: 'BebasNeueRegular';
+  font-size: 24px;
+  letter-spacing: 1.3px;
+}
+.type2 {
+  margin-left: 989px;
+  margin-top: 702px;
+}
+.type3 {
+  margin-left: 1020px;
+  margin-top: 726px;
+}
+.type4 {
+  margin-left: 1055px;
+  margin-top: 750px;
+}
+.type5 {
+  margin-left: 1102px;
+  margin-top: 774px;
+}
+.portrait {
+  position: relative;
+  height: 454px;
+  margin-left: 182px;
+  margin-top: 80px;
+}
+.block2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 1100px;
+  width: 1440px;
+  margin-top: 80px;
+  background-color: #6F2DA8;
+}
+.sub1 {
+  position: absolute;
+  margin-top: 80px;
+  color: #000000;
+}
+.block2 p {
+  position: absolute;
+  font-size: 156.8px;
+  color: #ffffff;
+}
+.thin {
+  font-family: 'BebasNeueThin';
+  margin-top: 265px;
+}
+.light {
+  font-family: 'BebasNeueLight';
+  margin-top: 422px;
+}
+.book {
+  font-family: 'BebasNeueBook';
+  margin-top: 579px;
+}
+.regular {
+  font-family: 'BebasNeueRegular';
+  margin-top: 736px;
+}
+.bold {
+  font-family: 'BebasNeueBold';
+  margin-top: 893px;
+}
+.bg1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 96px;
+  width: 860px;
+  margin-left: 290px;
+  margin-top: 230px;
+  background-color: #6F2DA8;
+}
+.sub2 {
+  position: absolute;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.specialities {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1054px;
+  margin-left: 180px;
+  margin-top: 115px;
+}
+.specialities img {
+  height: 600px;
+  margin-top: -100px;
+}
+.dots {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1600px;
+  margin-left: -290px;
+  margin-top: -1760px;
+}
+.dots img {
+  height: 80px;
+  margin-left: 405px;
+  margin-top: 430px;
+}
+.d56 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+.d56 img {
+  height: 600px;
+  margin-top: 30px;
+}
+.dots2 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1600px;
+  margin-left: -290px;
+  margin-top: 240px;
+}
+.dots2 img {
+  height: 80px;
+  margin-left: 405px;
+}
+.captions {
+  margin-left: -20px;
+  margin-top: -1600px;
+}
+.captions2 {
+  margin-left: 535px;
+  margin-top: -1515px;
+}
+.captions3 {
+  margin-left: 270px;
+  margin-top: 730px;
+}
+.captions div, .captions2 div, .captions3 div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 900px;
+  margin-top: 505px;
+}
+.captions div > p, .captions2 div > p, .captions3 div > p, .netflix p {
+  position: absolute;
+  font-family: 'BebasNeueRegular';
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1.3px;
+  color: #000000;
+}
+.borders {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -220px;
+}
+.borders img {
+  margin-top: 480px;
+}
+.netflix {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+.netflix img {
+  position: absolute;
+  height: 512px;
+  margin-top: -630px;
+}
+.netflix p {
+  margin-top: -180px;
+}
+.block3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.block3 h3 {
+  position: absolute;
+  margin-top: 160px;
+  color: #000000;
+}
+.posters {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1440px;
+  margin-left: -20px;
+  margin-top: 280px;
+}
+.posters div > img {
+  height: 810px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.designer, .fontb, .japan, .bbs, .year1, .redesign, .bbs4, .year2, .year3, .bbs8 {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+}
+.bbs2, .bbs3, .FF, .bbs5, .bbs6, .bbs7, .bbs9 {
+  position: absolute;
+  font-family: 'BebasNeueRegular';
+}
+.japan, .bbs2, .bbs3 {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  color: #6F2DA8;
+}
+.designer {
+  font-size: 32px;
+  margin-left: 195px;
+  margin-top: -1570px;
+  color: #6F2DA8;
+}
+.bbs {
+  font-size: 128px;
+  margin-left: 192px;
+  margin-top: -1530px;
+  color: #000000;
+}
+.fontb {
+  font-size: 64px;
+  margin-left: 194px;
+  margin-top: -1418px;
+  color: #000000;
+}
+.japan {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  margin-left: 200px;
+  margin-top: -990px;
+}
+.bbs2 {
+  margin-left: 200px;
+  margin-top: -954px;
+}
+.text div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 1010px;
+}
+.redesign, .year1, .bbs3, .bbs4, .year2, .FF, .bbs5, .bbs6, .bbs7 {
+  text-align: center;
+  width: 600px;
+}
+.redesign {
+  font-size: 112px;
+  margin-top: -1550px;
+  color: #ffffff;
+}
+.bbs4 {
+  font-size: 48px;
+  margin-top: -1445px;
+  color: #000000;
+}
+.year1 {
+  font-size: 36px;
+  margin-top: -946px;
+  color: #000000;
+}
+.bbs3 {
+  margin-top: -906px;
+}
+.text2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 410px;
+  margin-top: -350px;
+}
+.year2 {
+  font-size: 48px;
+  color: #6F2DA8;
+}
+.FF {
+  font-size: 18px;
+  margin-top: 60px;
+  color: #000000;
+}
+.bbs5 {
+  font-size: 20px;
+  margin-top: 100px;
+  color: #000000;
+}
+.bbs6 {
+  font-size: 24px;
+  margin-top: 170px;
+  color: #000000;
+}
+.bbs7 {
+  font-size: 32px;
+  margin-top: 250px;
+  color: #000000;
+}
+.text2 div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin-left: 1197px;
+}
+.year3 {
+  font-size: 36px;
+  margin-top: -420px;
+  color: #000000;
+}
+.bbs8 {
+  font-size: 64px;
+  margin-top: 110px;
+  color: #ffffff;
+}
+.bbs9 {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  text-align: center;
+  margin-top: 220px;
+  color: #000000;
+}
+.block4 {
+  position: relative;
+  display: flex;
+  height: 96px;
+  width: 1440px;
+  justify-content: center;
+  margin-top: 160px;
+  background-color: #000000;
+}
+.block4 h3 {
+  position: absolute;
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.ticket, .poster0, .logo, .subtitles, .capt, .end {
+  position: relative;
+}
+.ticket img {
+  position: absolute;
+  height: 237px;
+  margin-left: 183px;
+  margin-top: 96px;
+}
+.ticket1 {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  font-size: 72px;
+  margin-left: 285px;
+  margin-top: 150px;
+  color: #000000;
+}
+.ticket2, .ticket3, .ticket4, .ticket5, .ticket6 {
+  position: absolute;
+  font-family: 'BebasNeueRegular';
+  font-size: 24px;
+  color: #000000;
+}
+.ticket2, .ticket3, .ticket4, .ticket5 {
+  margin-top: 270px;
+}
+.ticket2 {
+  margin-left: 302px;
+}
+.ticket3 {
+  margin-left: 376px;
+}
+.ticket4 {
+  margin-left: 454px;
+}
+.ticket5, .ticket6 {
+  margin-left: 554px;
+}
+.ticket6 {
+  margin-top: 245px;
+}
+.poster0 img {
+  position: absolute;
+  height: 472px;
+  margin-left: 912px;
+  margin-top: 100px;
+}
+.poster0 p {
+  position: absolute;
+  text-align: center;
+}
+.txt1, .txt2, .txt3 {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  color: #000000;
+}
+.txt1 {
+  font-size: 110px;
+  margin-left: 960px;
+  margin-top: 140px;
+}
+.txt2 {
+  font-size: 73px;
+  margin-left: 961px;
+  margin-top: 234px;
+}
+.txt3 {
+  font-size: 90px;
+  margin-left: 960px;
+  margin-top: 300px;
+}
+.txt4 {
+  position: absolute;
+  font-family: 'BebasNeueBook';
+  font-size: 20px;
+  text-align: center;
+  margin-left: 926px;
+  margin-top: 510px;
+  color: #000000;
+}
+.astr {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  font-size: 76px;
+  margin-left: 1010px;
+  margin-top: 410px;
+  color: #6F2DA8;
+}
+.logo img {
+  position: absolute;
+  height: 210px;
+  margin-left: 175px;
+  margin-top: 365px;
+}
+.studio1, .studio2 {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  font-size: 66px;
+  margin-top: 438px;
+  color: #000000;
+}
+.studio1 {
+  margin-left: 200px;
+}
+.studio2 {
+  margin-left: 570px;
+}
+.subtitles img, .capt img {
+  position: absolute;
+  height: 285px;
+  margin-top: 645px;
+}
+.subtitles img {
+  margin-left: 171px;
+}
+.subtitles p {
+  position: absolute;
+  font-family: 'BebasNeueRegular';
+  font-size: 26px;
+  margin-left: 284px;
+  margin-top: 878px;
+  color: #ffffff;
+}
+.capt img {
+  margin-left: 789px;
+}
+.capt p {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  font-size: 52px;
+}
+.capt2 {
+  margin-left: 978px;
+  margin-top: 736px;
+  color: #000000;
+}
+.capt3 {
+  margin-left: 918px;
+  margin-top: 798px;
+  color: #ffffff;
+}
+.end img {
+  position: absolute;
+  height: 620px;
+  margin-left: 179px;
+  margin-top: 1012px;
+}
+.end p {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+}
+.end2 {
+  font-size: 128px;
+  margin-left: 398px;
+  margin-top: 1240px;
+  color: #6F2DA8;
+}
+.end3 {
+  font-size: 58px;
+  margin-left: 398px;
+  margin-top: 1348px;
+  color: #000000;
+}
+.dots3 img {
+  height: 80px;
+}
+.dot1, .dot2 {
+  position: absolute;
+  margin-top: 1296px;
+}
+.dot1 {
+  margin-left: 98px;
+}
+.dot2 {
+  margin-left: 1276px;
+}
+.dot3 {
+  position: absolute;
+  margin-left: 687px;
+  margin-top: 750px;
+}
+.block5 {
+  position: relative;
+  height: 14px;
+  width: 1440px;
+  margin-top: 1736px;
+  background-color: #000000;
+}
+.info0 {
+  position: absolute;
+  font-family: 'BebasNeueBold';
+  font-size: 36px;
+  margin-top: 1696px;
+}
+.info {
+  position: absolute;
+  width: 1000px;
+  letter-spacing: 1.3px;
+  margin-left: 434px;
+  color: #6F2DA8;
+}
+.stick1, .stick2 {
+  position: absolute;
+  color: #000000;
+}
+.stick2 {
+  margin-left: 1020px;
+}
